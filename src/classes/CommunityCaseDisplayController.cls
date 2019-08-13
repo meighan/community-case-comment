@@ -4,13 +4,13 @@ public class CommunityCaseDisplayController {
     public static List<CaseComment> getCaseComments(String caseId) {
         List<CaseComment> caseComments = 
                 [SELECT Id, ParentId, IsPublished, CommentBody,    CreatedDate, CreatedBy.Name, LastModifiedDate, LastModifiedById FROM CaseComment where parentId=:caseId order by CreatedDate desc];
-return caseComments;        
+        return caseComments;        
     }
-    
+        
     @AuraEnabled
     public static CaseComment addCaseComment(String caseId, String commentBody) {
         CaseComment caseComment = new CaseComment(ParentId=caseId, CommentBody=commentBody);
-        insert caseComment;
-return caseComment;        
+            insert caseComment;
+        return caseComment;        
     }    
 }
