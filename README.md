@@ -1,6 +1,6 @@
 # community-case-comment
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=meighan&repo=community-case-comment">
+<a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/meighan/community-case-comment">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
