@@ -1,4 +1,10 @@
 # community-case-comment
+
+<a href="https://githubsfdeploy.herokuapp.com?owner=meighan&repo=community-case-comment">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
+</a>
+
 Used on the Case Record Page for Case comment related list.
 
 Add the CaseCommentsRelatedList component to the Case Detail page.  Then the you can get rid of the public checkbox when case comments in the community are obviously being seen by the community user so they don't care about that checkbox.
